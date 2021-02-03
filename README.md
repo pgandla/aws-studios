@@ -1,2 +1,2 @@
-# aws-verse
+# aws-studios
 Everthing about AWS 
