@@ -1,4 +1,4 @@
-# Aws-Studios
+githugit# Aws-Studios
 
 ### SAP Prep
 
@@ -10,6 +10,32 @@
 	- Agentless - SMS - large of on-prem VMs
 	- vMotion for VMWare to move VMs to AWS cloud
 	- CloudEndure DR for disaster recovery.
+## [Migration HUB](https://youtu.be/PVyWqViXieY)
+- Track the migration status
+- Discovery using AWS ADS
+- Application descovery service
+- Agents collect the data to get the insights about data center
+- Analyze the data to estimate EC2 costs.
+
+
+## Application Discovery Service
+- Planning by collecting usage and configuration data
+- Grouping applications
+- Use Athena, QuickSIght to analyze the data.
+- Agentless
+	- Install connector(OVA file) on vCenter
+	- Collect hostnames, IPs, CPU, RAM, Disk I/O
+	- Can’t collect VMs processes
+	- Only VMs
+- Agent-based
+	- Install agent on VMs
+	- Collects time-series, network, prcesses
+	- Server setup
+- Data discovery
+	- Enable Athena from Migration Hub
+	- Time-series analyze
+	- QuickSight to visualize the data
+
 
 ##  [Server Migration Service](https://youtu.be/_SpRpC2Ez9c)
 - Agentless - VMWare, HyperV, Azure workloads
@@ -33,11 +59,5 @@
 	-  VM pre-reqs
 	- Close to hypervisor and multiple connectors
 	- PrivateLink with DirectConnect 
-## [Migration HUB](https://youtu.be/PVyWqViXieY)
-- Track the migration status
-- Discovery using AWS ADS
-- Application descovery service
-- Agents collect the data to get the insights about data center
-- Analyze the data to estimate EC2 costs.
-- Use Athena, QuickSIght to analyze the data.
-- 
+
+## 
