@@ -60,4 +60,43 @@ githugit# Aws-Studios
 	- Close to hypervisor and multiple connectors
 	- PrivateLink with DirectConnect 
 
-## 
+## Data Migration
+- Storage gateway
+	- File gateway
+	- Tape gateway
+	- Volume gateway
+
+##[Direct Connect](https://youtu.be/-IeVqABxIVU)
+	- dedicated network connection
+	- Reduce network costs
+	- increase bandwidth
+	- Both public and private VIFs
+	- Create connection 
+	- Letter of Authorization(LoA) to APN
+	- Cross connect
+	- Configure VIFs
+	- 1 Gbps and 10 Gbps
+	- Use case 
+		- Large datasets
+		- Realtime data feeds
+		- Hybrid environments
+	- Dedicated connections
+		- AWS will setup the connection
+		- Port speed - 1 Gbps and 10 Gbps
+	- Hosted connections
+		- APN partner will assist here
+		- Port speed - 50 Mbps ~ 10 Gbps
+	- Can’t change port speed once configured.
+	- Link Aggregation group (LAG) to group multiple connections for redundancy.
+	- Aggregates multiple connections at a single connect endpoint
+	- Uses Link Aggregation Control Protocol LACP
+	- All connections must be dedicated
+	- Maximum 4 connections and should be on same bandwidth
+	- All connections in a LAG must end at same endpoint
+	- DirectConnect gateway: Multiple VPCs to signle connect endpoint
+	- Global service
+	- Virtual Gateway Association >> Direct Gateway >> VF >> Direct Connection >> Customer Network
+	- Not transitive. Can’t connect VPGs.
+	- 
+
+
