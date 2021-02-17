@@ -1,0 +1,20 @@
+- SWF
+- MTurk
+- VPC peering
+- Shared subnets
+- AWS RAM
+- CloudTrail - Global option
+- Config
+- Parameter store
+- Direct connect LAG - public, private
+- Inter-region VPC peering - Although the Inter-Region VPC Peering provides a cost-effective way to share resources between regions or replicate data for geographic redundancy, its connections are not dedicated and highly available
+- CloudFront - encryption and cache 
+- Use field level encryption. To use this, origin must support chunked encoding.
+- Manage cache
+- DynamoDB uses federated access using Web Identity Provider, and uses fine grained access privileges for authenticating the access
+- AWS Management Portal for vCenter is primarily used as an easy-to-use interface for creating and managing AWS resources from VMware vCenter.
+- Vm import/export
+- SSM - Patch manager
+- **AWS SCT** agent to extract data from your on-premises data warehouse and migrate it to Amazon Redshift
+- You can then use AWS SCT to copy the data to Amazon Redshift.
+- Route53 Alias A-record
