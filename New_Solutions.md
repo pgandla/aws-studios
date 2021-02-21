@@ -12,4 +12,5 @@
 - Advanced Shield + EIPs allows to protect NLBs
 - Use CloudFront + Route53 to infrastructure attacks
 - CloudFront can mitigate common DoS, SYN floods, UDP reflections attacks from reaching your origin.
+- Route53 uses shuffle sharding and anycast striping to counter DDoS.
 -  

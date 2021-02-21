@@ -1,0 +1,22 @@
+# Advanced Architect on AWS
+- Apply the AWS Well-Architected Framework
+- Manage multiple AWS accounts for your organization
+- Connect an on-premises data center to the AWS Cloud
+- Discuss billing implications of connecting multi-region VPCs
+- Move large data from an on-premises data center to AWS
+- Design large data stores for the AWS Cloud
+- Understand different architectural designs for scaling a large website
+- Protect your infrastructure from distributed denial of service (DDOS) attacks
+- Secure your data on AWS with encryption
+- Design protection of data at rest and data in transit
+- Enhance the performance of your solutions
+- Select the most appropriate AWS deployment mechanism
+## Data migration best practices
+- Right tool - CloudEndure, DMS, DataSync, Snow family
+- CloudEndure - Move VMs
+- DMS - SCT - zero downtime 
+- Network Bandwidth - usable bandwidth
+- Operational impact
+- DataSync
+- Data profile - how much data ? many files ?
+- 
