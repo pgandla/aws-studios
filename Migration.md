@@ -1,7 +1,3 @@
-githugit# Aws-Studios
-
-### SAP Prep
-
 
 ## [Migration](https://youtu.be/Plsy7GSqX-0)
 - Assessment - Planning - Migrations - Opearations
@@ -98,5 +94,11 @@ githugit# Aws-Studios
 	- Virtual Gateway Association >> Direct Gateway >> VF >> Direct Connection >> Customer Network
 	- Not transitive. Can’t connect VPGs.
 	- 
+
+# DataSync
+- 
+
+
+
 
 
