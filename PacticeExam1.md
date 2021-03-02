@@ -29,6 +29,10 @@
 - If you want a short-term or lower-cost solution, you might consider configuring a hardware VPN as a failover option for a Direct Connect connection. 
 - Register the domain name on Route 53 and enable DNSSEC validation for all public hosted zones to ensure that all DNS requests have not been tampered with during transit. Use AWS Certificate Manager (ACM) to generate a valid TLS/SSL certificate for the domain name. Configure the Application Load Balancer with an HTTPS listener to use the ACM TLS/SSL certificate. Use Server Name Identification and HTTP to HTTPS redirection on CloudFront.
 - If your Lambda function needs Internet access, attach it only to private subnets with Internet access through a NAT instance or an Amazon VPC NAT gateway.
-# Exam 2
-- Process the data in batches to avoid reaching the write limits to the DynamoDB table. Group the requests from API Gateway by streaming the data into an Amazon Kinesis data stream.
-- 
+# Exam 3
+1. To achieve performance for HPC cluster place it in a placement group.
+	1. Cluster - low-latency network for HPC apps.
+	2. Partitiion - No partition share same hardware, workloads like Hadoop, Cassandra, Kafka
+	3. Spread - distinct hardware to avoid failuers.
+	4. **Elastic Fabric Adapter** : EFA OS to enhance network performances.
+	5. FSx - HPC workloads, video processing, ML modelling.
