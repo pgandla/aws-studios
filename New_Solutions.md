@@ -30,4 +30,16 @@
 14. Can be mounted on many EC2 instances
 15. General and Max I/O modes
 16. Bursting and Provisioned throughput modes
-17. 
+# S3 Replication
+- Cross region or Same region
+- Use bucket policy to allow source S3 to write in case of different account
+- Not possible SSE-C
+- Only user events no system events. No Glacier/Deep archive
+- No deletes
+# S3 Encryption
+- Client side
+- Server side - SSE -C, -S3, -KMS
+- HTTP header: x-amz-server-side-encryption: AES256, aws:kms
+#S3 Presigned URLs
+- Don’t generate with a role
+- 
